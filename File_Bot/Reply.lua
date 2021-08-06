@@ -1,7 +1,7 @@
 local function Reply(msg)
 local text = msg.content_.text_
 if not database:get(bot_id..'Reply:Status'..msg.chat_id_) then
-if text == 'امباري' or text == 'أمباري' then
+if text == 'انباري' or text == 'الانباري' then
 TextReply = '[ 𝐴ٍِηِвِяٍِ𝒊مبـرمــجے ](t.me/BB99i)'
 send(msg.chat_id_, msg.id_,''..TextReply..'')
 return false
