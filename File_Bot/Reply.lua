@@ -6,7 +6,7 @@ TextReply = '[ 𝐴ٍِηِвِяٍِ𝒊مبـرمــجے ](t.me/BB99i)'
 send(msg.chat_id_, msg.id_,''..TextReply..'')
 return false
 end
-if text == '@BB99i' or text == '@bb991' then
+if text == '@BB55i' or text == '@BB55i' then
 TextReply = 'هذا مطور سورس بلاك'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
